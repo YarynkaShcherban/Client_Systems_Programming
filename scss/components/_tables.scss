@@ -1,0 +1,26 @@
+.user-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .user-table th {
+    text-align: left;
+    padding: 14px;
+    border-bottom: 2px solid $color-border;
+  }
+  
+  .user-table td {
+    padding: 14px;
+    border-bottom: 1px solid $color-border;
+  }
+  
+  .action-buttons {
+    display: flex;
+    gap: 8px;
+  }
+  
+  @include mobile {
+    .action-buttons {
+      flex-direction: column;
+    }
+  }

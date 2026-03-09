@@ -1,0 +1,33 @@
+html {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    font-family: $font-main, $font-fallback;
+    background-color: $color-bg;
+    color: $color-text;
+    line-height: 1.6;
+  }
+  
+  .container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 40px 20px;
+  }
+  
+  .main-content {
+    @include flex-center;
+    min-height: 100vh;
+    padding: 20px;
+  }
+  
+  .text-center {
+    text-align: center;
+  }
+  
+  .section-divider {
+    margin-top: 20px;
+    border-top: 1px solid $color-border;
+    padding-top: 20px;
+  }

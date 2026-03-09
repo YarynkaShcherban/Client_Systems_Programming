@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="uk">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Користувачі | bookstore</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <header class="container header-bar">
+        <div class="logo">
+            bookstore
+        </div>
+        <a href="index.html" class="btn-danger">
+            Вийти
+        </a>
+    </header>
+
+    <main class="container">
+        <section class="management-wrapper">
+            <header class="management-header">
+                <h1>Управління користувачами</h1>
+                <a href="create-user.html" class="btn-success">
+                    + Новий користувач
+                </a>
+            </header>
+
+            <table class="user-table">
+                <thead>
+                    <tr>
+                        <th>Логін</th>
+                        <th>Роль</th>
+                        <th>Дії</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>yaryna</td>
+                        <td>
+                            <span class="role-badge role-badge-admin">Адмін</span>
+                        </td>
+                        <td>
+                            <div class="action-buttons">
+                                <a href="user-detail.html" class="btn-primary">Деталі</a>
+                                <a href="edit-user.html" class="btn-success">Редагувати</a>
+                                <a href="users.html" class="btn-danger">Видалити</a>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>ivan</td>
+                        <td>
+                            <span class="role-badge role-badge-regular">Користувач</span>
+                        </td>
+                        <td>
+                            <div class="action-buttons">
+                                <a href="user-detail.html" class="btn-primary">Деталі</a>
+                                <a href="edit-user.html" class="btn-success">Редагувати</a>
+                                <a href="users.html" class="btn-danger">Видалити</a>
+                            </div>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+    </main>
+</body>
+</html>

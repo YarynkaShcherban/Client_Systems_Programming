@@ -1,0 +1,16 @@
+.btn-primary {
+    @include button-base($color-accent);
+  }
+  
+  .btn-success {
+    @include button-base($color-success);
+  }
+  
+  .btn-danger {
+    @include button-base($color-danger);
+  }
+  
+  .btn-block {
+    width: 100%;
+    text-align: center;
+  }

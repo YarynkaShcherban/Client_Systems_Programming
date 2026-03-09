@@ -1,0 +1,37 @@
+.user-card-detail
+{
+  @include card-style;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.user-info
+{
+  margin-top: 20px;
+}
+
+.info-group
+{
+  margin-bottom: 12px;
+}
+
+.role-badge
+{
+  display: inline-block;
+  padding: 4px 10px;
+  border-radius: 6px;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.role-badge-admin
+{
+  background-color: $color-accent;
+  color: $color-white;
+}
+
+.role-badge-regular
+{
+  background-color: $color-success;
+  color: $color-white;
+}

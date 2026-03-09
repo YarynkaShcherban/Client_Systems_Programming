@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Редагувати користувача | Bookstore</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <main class="main-content">
+        <section class="auth-card">
+            <h1>Редагувати профіль</h1>
+            <form action="users.html">
+                <div class="form-group">
+                    <label>Логін</label>
+                    <input type="text" name="username" value="yaryna_pm">
+                </div>
+                <div class="form-group">
+                    <label>Новий пароль (опціонально)</label>
+                    <input type="password" name="password" placeholder="Залиште порожнім, щоб не змінювати">
+                </div>
+                <div class="form-group">
+                    <label>Роль (тільки для адміна)</label>
+                    <select name="role">
+                        <option value="admin" selected>Адміністратор</option>
+                        <option value="regular">Користувач</option>
+                    </select>
+                </div>
+                <div style="display: flex; gap: 10px; margin-top: 25px;">
+                    <button type="submit" class="btn-success btn-block">Оновити</button>
+                    <a href="users.html" class="btn-danger btn-block" style="line-height: 44px; text-align: center; text-decoration: none;">Скасувати</a>
+                </div>
+            </form>
+        </section>
+    </main>
+</body>
+</html>
